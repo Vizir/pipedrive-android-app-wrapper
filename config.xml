@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id= "br.com.vizir.pipedrivewrapper" versionCode="10" version="1.0.0">
+    <name>Pipedrive</name>
+    <description>
+        An Android App wrapper to the amaizing pipedrive mobile webapp.
+    </description>
+    <author href="https://vizir.com.br" email="contato@vizir.com.br">
+        Vizir Software Studio
+    </author>
+    <preference name="target-device" value="universal" />
+    <preference name="permissions" value="none"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+
+    <icon src="icons/icon.png" />
+    <icon src="icons/android/icon-ldpi.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="icons/android/icon-mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="icons/android/icon-hdpi.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="icons/android/icon-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+    <gap:splash src="splash/android/splash-ldpi.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="splash/android/splash-mdpi.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="splash/android/splash-hdpi.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="splash/android/splash-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+</widget>
